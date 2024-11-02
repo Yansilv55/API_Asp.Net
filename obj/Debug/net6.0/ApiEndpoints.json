@@ -1,0 +1,89 @@
+[
+  {
+    "ContainingType": "API_Coffee.Endpoints.UrlCategories.CategoryPost",
+    "Method": "Action",
+    "RelativePath": "categories",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryRequest",
+        "Type": "API_Coffee.Endpoints.UrlCategories.CategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Coffee.Endpoints.UrlCategories.CategoryGetAll",
+    "Method": "Action",
+    "RelativePath": "categories",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Coffee.Endpoints.UrlCategories.CategoryPut",
+    "Method": "Action",
+    "RelativePath": "categories/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "CategoryRequest",
+        "Type": "API_Coffee.Endpoints.UrlCategories.CategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Coffee.Endpoints.Employees.EmployeePost",
+    "Method": "Action",
+    "RelativePath": "employee",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeRequest",
+        "Type": "API_Coffee.Endpoints.Employees.EmployeeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
